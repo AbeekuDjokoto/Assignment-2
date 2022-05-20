@@ -30,6 +30,10 @@ body{
   list-style: none;
 }
 
+.mobile{
+  display: none;
+}
+
 .right-nav li{
   margin-left: 44px;
 }
@@ -699,10 +703,13 @@ display: flex;
 @media only screen and (max-width: 357px) {
   body{
     background: #FFFFFF;
-    padding: 42px 15px 144px 16px;
+    padding: 42px 15px 0px 16px;
     width: 100%;
   }
-  
+
+.mobile{
+  display: flex;
+}
 
 .right-nav{
   display: none;
@@ -814,10 +821,13 @@ display: flex;
 
 .hover{
   margin-top: -90px;
-  /* height: 28.97px; */
   width: 30px;
   margin-right: 210px;
   margin-left: 0px;
+}
+
+.paragraph2{
+  width: 100%;
 }
 
 .cards2{
@@ -837,11 +847,6 @@ display: flex;
 .flexy{
   flex-wrap: wrap;
 }
-
-/* .form{
-  flex-wrap: wrap;
-  text-align: center;
-} */
 
 .right{
   flex-wrap: wrap;
@@ -868,10 +873,40 @@ display: flex;
   margin-top: 44px;
 }
 
+.contactUsNew{
+  margin-right: 0px;
+}
+
 .describe{
   padding: 11px 110px 96px 24px;
   margin-top: 44px;
   margin-bottom: 34px;
+}
+
+.social{
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+
+.spaceLeft{
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.spaceright{
+  flex-wrap: wrap;
+}
+
+.uptimaP{
+  margin-right: 0px;
+  flex-wrap: wrap;
+  margin-bottom: 27px;
+}
+
+.uptimaPP{
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .send{
